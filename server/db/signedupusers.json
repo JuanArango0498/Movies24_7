@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "nombre": "Juan David",
+      "apellido": "Arango Correa",
+      "edad": "26",
+      "email": "juda@gmail.com",
+      "password": "juda0498",
+      "favorites": []
+    },
+    {
+      "nombre": "Camila",
+      "apellido": "Suárez Hoyos",
+      "edad": "32",
+      "email": "casu@gmail.com",
+      "password": "casu1212",
+      "favorites": [
+        653346,
+        719221,
+        980083,
+        437342,
+        1022789,
+        27205,
+        601796,
+        11,
+        126889,
+        157336
+      ]
+    },
+    {
+      "nombre": "Martín Alfonso",
+      "apellido": "Carvalho Oliveira",
+      "edad": "45",
+      "email": "maal@gmail.com",
+      "password": "maal0218",
+      "favorites": [
+        414906,
+        872585,
+        1022789,
+        929590,
+        746036,
+        960469,
+        447200,
+        639720,
+        578
+      ]
+    },
+    {
+      "nombre": "Carlos",
+      "apellido": "Espitia Lame",
+      "edad": "28",
+      "email": "caes@gmail.com",
+      "password": "caes0608",
+      "favorites": []
+    },
+    {
+      "nombre": "Natalie",
+      "apellido": "Coronel Restrepo",
+      "edad": "19",
+      "email": "naco@gmail.com",
+      "password": "naco0606",
+      "favorites": []
+    },
+    {
+      "nombre": "Julián David",
+      "apellido": "Muñóz Cuartas",
+      "edad": "30",
+      "email": "jumu@gmail.com",
+      "password": "jumu0312",
+      "favorites": []
+    },
+    {
+      "nombre": "Juan Manuel",
+      "apellido": "Arboleda Campos",
+      "edad": "25",
+      "email": "juma@gmail.com",
+      "password": "juma1010",
+      "favorites": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+.card-main {
+    border: 1px solid rgb(0, 255, 255);
+    display: flex;
+    width: calc(20% - 20px);
+    height: 50vh;
+    border-radius: 10px;
+    isolation: isolate;
+}
+
+.card-main:hover {
+    box-shadow: 0 0 10px 3px rgb(0, 255, 255);
+}
+
+.card-poster {
+    background-color: rgb(30, 184, 184, 0.1);
+    text-decoration: none;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card-poster img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-poster .movie-title {
+    position: absolute;
+    display: none;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    bottom: 0;
+    background-color: rgb(0, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    color: rgb(6, 53, 61);
+    border-radius: 0 0 10px 10px;
+}
+
+.card-main:hover .movie-title{
+    display: block;
+}
+
+.movie-title h5 {
+    margin: 5px;
+}

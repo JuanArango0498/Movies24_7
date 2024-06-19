@@ -1,0 +1,82 @@
+.form-container {
+    background-color: rgb(43, 42, 42);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(36, 219, 219);
+}
+
+.form-container form {
+    /* border: 2px solid red; */
+    width: 40%;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.form-container .logo-container {
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.form-container .logo-container img {
+    width: 30%;
+    height: 30%;
+}
+
+.form-container .inputs-section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.inputs-section .input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs-section .input-container input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(37, 156, 180, 0.5);
+    backdrop-filter: blur(10px);
+    padding-left: 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.inputs-section .input-container input:focus {
+    outline: none;
+}
+
+.logo-container h1 {
+    align-self: end;
+}
+
+.form-container .signup-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.signup-btn button {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    background-color: transparent;
+    background-image: linear-gradient(to right, transparent, rgb(0, 255, 255, 0.5)50%, transparent);
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(6, 53, 61);
+}
+
+.signup-btn button:hover {
+    background-image: linear-gradient(to right, transparent, rgb(0, 255, 255), transparent);
+}

@@ -1,0 +1,23 @@
+.star-icon {
+    margin: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    background-color: rgb(23, 178, 196, 0.5);
+    color: rgb(179, 243, 243);
+    font-size: 15px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.star-icon:hover {
+    color: white;
+    background-color: rgb(23, 178, 196);
+}

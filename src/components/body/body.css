@@ -1,0 +1,65 @@
+.general {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* border: 2px solid cyan; */
+}
+
+.movies-container {
+    /* border: 1px solid blue; */
+    padding: 40px;
+    background-color: rgb(43, 42, 42);
+}
+
+.movies-container h3 {
+    color: rgb(0, 255, 255);
+}
+
+.movies-container .list-movies {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.pages-dir {
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.pages-dir button {
+    width: 30%;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(6, 53, 61);
+}
+
+.pages-dir button:first-child {
+    border-radius: 5px 0 0 20px;
+    text-align: left;
+    padding-left: 60px;
+    background-image: linear-gradient(to right, rgb(0, 255, 255, 0.5)0, transparent 100%);
+}
+
+.pages-dir button:last-child {
+    border-radius: 0 5px 20px 0;
+    text-align: right;
+    padding-right: 60px;
+    background-image: linear-gradient(to left, rgb(0, 255, 255, 0.5)0, transparent 100%);
+}
+
+.pages-dir .back:hover {
+    background-image: linear-gradient(to right, rgb(0, 255, 255)0, transparent 100%);
+}
+
+.pages-dir .next:hover {
+    background-image: linear-gradient(to left, rgb(0, 255, 255)0, transparent 100%);
+}
